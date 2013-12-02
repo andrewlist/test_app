@@ -9,5 +9,12 @@
  * compiled file, but it's generally better to create a new file per style scope.
  *
  *= require_self
- *= require_tree .
  */
+
+// change colors
+$link-color: red;
+$navbar-default-brand-color: blue;
+
+// import original bootstrap
+@import "twitter/bootstrap";
+@import "pages"
