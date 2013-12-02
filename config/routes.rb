@@ -1,4 +1,6 @@
 TestApp::Application.routes.draw do
+  resources :articles
+
   root 'pages#home'
   get "pages/home"
   get "pages/about_us"
