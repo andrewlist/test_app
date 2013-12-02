@@ -7,35 +7,11 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "config/initializers/mime_types.rb",
-			"settings":
-			{
-				"buffer_size": 201,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "config/database.yml",
-			"settings":
-			{
-				"buffer_size": 1717,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Gemfile",
-			"settings":
-			{
-				"buffer_size": 1174,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 71.0,
+		"height": 341.0,
 		"selected_items":
 		[
 			[
@@ -59,7 +35,7 @@
 				"Set Syntax: R Console"
 			]
 		],
-		"width": 462.0
+		"width": 561.0
 	},
 	"console":
 	{
@@ -76,8 +52,32 @@
 	},
 	"file_history":
 	[
+		"/Users/andrewlist/Projects/test_app/app/assets/javascripts/application.js",
+		"/Users/andrewlist/Projects/test_app/app/views/layouts/_navbar.html.erb",
+		"/Users/andrewlist/Projects/test_app/app/assets/stylesheets/application.css.scss",
+		"/Users/andrewlist/Projects/test_app/app/assets/stylesheets/articles.css.scss",
+		"/Users/andrewlist/Projects/test_app/app/views/articles/show.html.slim",
+		"/Users/andrewlist/Projects/test_app/app/views/articles/edit.html.slim",
+		"/Users/andrewlist/Projects/test_app/app/views/articles/_form.html.slim",
+		"/Users/andrewlist/Projects/test_app/app/controllers/application_controller.rb",
+		"/Users/andrewlist/Projects/test_app/config/routes.rb",
+		"/Users/andrewlist/Projects/test_app/app/controllers/articles_controller.rb",
+		"/Users/andrewlist/Projects/test_app/app/views/articles/index.json.jbuilder",
+		"/Users/andrewlist/Projects/test_app/app/models/article.rb",
+		"/Users/andrewlist/Projects/test_app/app/views/articles/index.html.slim",
+		"/Users/andrewlist/Projects/test_app/app/views/articles/new.html.slim",
+		"/Users/andrewlist/Projects/test_app/app/assets/javascripts/pages.js.coffee",
 		"/Users/andrewlist/.bash_profile",
 		"/Users/andrewlist/Projects/test_app/Gemfile",
+		"/Users/andrewlist/Projects/test_app/app/assets/stylesheets/pages.css.scss",
+		"/Users/andrewlist/Projects/test_app/config/initializers/mime_types.rb",
+		"/Users/andrewlist/Projects/test_app/config/database.yml",
+		"/Users/andrewlist/Projects/test_app/app/controllers/pages_controller.rb",
+		"/Users/andrewlist/Projects/test_app/app/views/pages/home.html.slim",
+		"/Users/andrewlist/Projects/test_app/app/views/layouts/application.html.slim",
+		"/Users/andrewlist/Projects/test_app/config/application.rb",
+		"/Users/andrewlist/Projects/test_app/app/views/home/about_us.html.erb",
+		"/Users/andrewlist/Projects/test_app/test_app.sublime-project",
 		"/Users/andrewlist/Projects/test_app/bin/startpg",
 		"/Users/andrewlist/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/Users/andrewlist/Projects/test_app/README.md",
@@ -104,6 +104,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".field",
+			".fields",
+			"\\n",
 			"chmo"
 		],
 		"highlight": true,
@@ -112,6 +115,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			".form-group",
+			" "
 		],
 		"reverse": false,
 		"show_context": true,
@@ -122,356 +127,8 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "config/initializers/mime_types.rb",
-					"settings":
-					{
-						"buffer_size": 201,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								154,
-								154
-							]
-						],
-						"settings":
-						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110.0
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"browser": true,
-								"evil": true,
-								"regexdash": true,
-								"sub": true,
-								"trailing": true,
-								"wsh": true
-							},
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": true,
-							"sublimelinter_delay": 2.0,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": true,
-							"sublimelinter_gutter_marks_theme": "simple",
-							"sublimelinter_mark_style": "none",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "config/database.yml",
-					"settings":
-					{
-						"buffer_size": 1717,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								124,
-								124
-							]
-						],
-						"settings":
-						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110.0
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"browser": true,
-								"evil": true,
-								"regexdash": true,
-								"sub": true,
-								"trailing": true,
-								"wsh": true
-							},
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": true,
-							"sublimelinter_delay": 2.0,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": true,
-							"sublimelinter_gutter_marks_theme": "simple",
-							"sublimelinter_mark_style": "none",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/YAML/YAML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 485.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "Gemfile",
-					"settings":
-					{
-						"buffer_size": 1174,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								169,
-								169
-							]
-						],
-						"settings":
-						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110.0
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"browser": true,
-								"evil": true,
-								"regexdash": true,
-								"sub": true,
-								"trailing": true,
-								"wsh": true
-							},
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": true,
-							"sublimelinter_delay": 2.0,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": true,
-							"sublimelinter_gutter_marks_theme": "simple",
-							"sublimelinter_mark_style": "none",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -481,7 +138,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 33.0
 	},
 	"layout":
 	{
@@ -508,7 +165,7 @@
 	"menu_visible": true,
 	"replace":
 	{
-		"height": 0.0
+		"height": 66.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -517,8 +174,112 @@
 		"selected_items":
 		[
 			[
+				"applicon",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"indexjson",
+				"app/views/articles/index.json.jbuilder"
+			],
+			[
+				"artic",
+				"app/models/article.rb"
+			],
+			[
+				"inde",
+				"app/views/articles/index.html.slim"
+			],
+			[
+				"articlescon",
+				"app/controllers/articles_controller.rb"
+			],
+			[
+				"routes",
+				"config/routes.rb"
+			],
+			[
+				"form",
+				"app/views/articles/_form.html.slim"
+			],
+			[
+				"new",
+				"app/views/articles/new.html.slim"
+			],
+			[
+				"edit",
+				"app/views/articles/edit.html.slim"
+			],
+			[
+				"appscss",
+				"app/assets/stylesheets/application.css.scss"
+			],
+			[
+				"articlesscs",
+				"app/assets/stylesheets/articles.css.scss"
+			],
+			[
+				"show",
+				"app/views/articles/show.html.slim"
+			],
+			[
+				"articleindexhtml",
+				"app/views/articles/index.html.slim"
+			],
+			[
+				"nava",
+				"app/views/layouts/_navbar.html.erb"
+			],
+			[
+				"article",
+				"app/models/article.rb"
+			],
+			[
+				"applicationjs",
+				"app/assets/javascripts/application.js"
+			],
+			[
+				"coffee",
+				"app/assets/javascripts/pages.js.coffee"
+			],
+			[
 				"gem",
 				"Gemfile"
+			],
+			[
+				"pagescss",
+				"app/assets/stylesheets/pages.css.scss"
+			],
+			[
+				"appcss",
+				"app/assets/stylesheets/application.css.scss"
+			],
+			[
+				"applicationhtml",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"appli",
+				"config/application.rb"
+			],
+			[
+				"pagescon",
+				"app/controllers/pages_controller.rb"
+			],
+			[
+				"appjs",
+				"app/assets/javascripts/application.js"
+			],
+			[
+				"application",
+				"app/assets/stylesheets/application.css"
+			],
+			[
+				"home",
+				"app/views/pages/home.html.erb"
+			],
+			[
+				"route",
+				"config/routes.rb"
 			],
 			[
 				"start",
@@ -555,6 +316,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 222.0,
 	"status_bar_visible": true
 }
