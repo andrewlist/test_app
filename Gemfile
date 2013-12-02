@@ -1,7 +1,10 @@
 source 'https://rubygems.org'
-
+ruby '2.0.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.1'
+
+#Heroku Gems
+gem 'rails_12factor'
 
 #Twitter Bootstrap
 gem 'anjlab-bootstrap-rails', :require => 'bootstrap-rails',
